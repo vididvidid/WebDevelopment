@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.Nav{
+    height:2.5625em;
+    background-color: red;
+    grid-area: navbar;
+}
+
+.Bannar{
+    height: 19em;
+    background-color: grey;
+    grid-area: bannar;
+    display:grid;
+}
+.BannarText{
+    background-color: black;
+    color:white;
+    place-self:center;
+}
+.AboutTitle{
+    grid-area: abouttitle;
+}
+.AboutQuote{
+    grid-area: aboutquote;
+}
+.AboutDesc{
+    grid-area: aboutdesc;
+}
+.AboutName{
+    grid-area:aboutname;
+}
+.AboutPhoto{
+    grid-area:aboutphoto;
+}
+.AboutWelcome{
+    grid-area:aboutwelcome;
+}
+.AboutEnd{
+    grid-area:aboutend;
+}
+.AboutShowoff{
+    grid-area:aboutshowoff;
+}
+.AboutMe{
+    grid-area: aboutme;
+    display:grid;
+    grid-template-areas:
+    "abouttitle abouttitle"
+    "aboutquote aboutquote"
+    "aboutdesc aboutdesc"
+    "aboutname aboutwelcome"
+    "aboutphoto aboutwelcome"
+    "aboutend aboutend"
+    "aboutshowoff aboutshowoff";
+
+
+}
+.ConnectionsPartnersNo{
+    grid-area:cpn;
+}
+.ConnectionsProjectsDoneNo{
+    grid-area:cpdn;
+}
+.ConnectionsHappyClientsNo{
+    grid-area:chcn;
+}
+.ConnectionsMeetingsNo{
+    grid-area:cmn;
+}
+.ConnectionsPartners{
+    grid-area:cp;
+}
+.ConnectionsProjectsDone{
+    grid-area:cpd;
+}
+.ConnectionsHappyClients{
+    grid-area:chc;
+}
+.ConnectionsMeetings{
+    grid-area:cm;
+}
+.Connections{
+    height:8em;
+    background-color: yellow;
+    grid-area: connections;
+    display:grid;
+    grid-template-areas:
+    "cpn cpdn chcn cmn"
+    "cp cpd chc cm"
+}
+.Portfolio{
+    height:19em;
+    background-color: aqua;
+    grid-area: portfolio;
+    display:grid;
+}
+.PortfolioText{
+    place-self: center;
+}
+.MyWorkTitle{
+    grid-area:myworktitle;
+}
+
+.MyWorkText1{
+    grid-area:myworktext1;
+}
+.MyWorkText2{
+    grid-area:myworktext2;
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+.MyWorkTextGrid{
+    grid-area:myworktextgrid;
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+}
+.MyWorkLoad{
+    grid-area:myworkload;
+}
+
+.MyWork{
+    grid-area: mywork;
+    display:grid;
+    grid-template-areas:
+    "myworktitle"
+    "myworktext1"
+    "myworktext2"
+    "myworktextgrid"
+    "myworkload";
+}
+.Contact{
+    height:19em;
+    background-color: aquamarine;
+    grid-area: contact;
+    display:grid;   
+}
+.ContactText{
+    place-self: center;
+}
+.WhereIWorkTitle{
+    grid-area:wiwt;
+}
+.WhereIWorkText{
+    grid-area:wiwtx;
+}
+.WhereIWorkPhoto{
+    grid-area: wiwp;
+}
+.WhereIWorkLocation{
+    grid-area: wiwl;
+}
+.WhereIWorkPhone{
+    grid-area: wiwpn;
+}
+.WhereIWorkEmail{
+    grid-area: wiwe;
+}
+.WhereIWorkDesc{
+    grid-area: wiwd;
+}
+.WhereIWorkForm{
+    grid-area: wiwf;
+}
+.WhereIWork{
+    grid-area: whereiwork;
+    display: grid;
+    grid-template-areas: 
+    "wiwt wiwt"
+    "wiwtx wiwtx"
+    "wiwp wiwl"
+    "wiwp wiwpn"
+    "wiwp wiwe"
+    "wiwp wiwd"
+    ".... wiwf";
+}
+.Footer{
+    height:16em;
+    background-color: black;
+    grid-area: footer;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-areas:
+    "navbar"
+    "bannar"
+    "aboutme"
+    "connections"
+    "portfolio"
+    "mywork"
+    "contact"
+    "whereiwork"
+    "footer";
+}
+
