@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(OIP.jpg) no-repeat;
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+}
+.navbar{
+    height:80px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+#logo{
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    height: auto;
+    width: 60px;
+    padding: 10px 60px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition-duration: 0.4ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: (-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+}
+.center .buttons{
+    margin:40px 300px;
+}
+.buttons button{
+    height: 50px;
+    width:150px;
+    color: #ffb3bf;
+    font-size: 18px;
+    font-weight: bold;
+    background: red;
+    border:1px solid #cc0000;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left:25px;
+}
+.buttons .btn:hover{
+    background: #cc0000;
+}

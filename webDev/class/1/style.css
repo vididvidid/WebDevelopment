@@ -167,9 +167,27 @@
 .WhereIWorkDesc{
     grid-area: wiwd;
 }
+.WIWFName{
+    grid-area:wiwfn;
+}
+.WIWFEmail{
+    grid-area:wiwfe;
+}
+.WIWFMessage{
+    grid-area:wiwfm;
+}
+.WIWFSubmit{
+    grid-area:wiwfs;
+}
 .WhereIWorkForm{
     grid-area: wiwf;
+    display:grid;
+    grid-template-areas:
+    "wiwfn wiwfn wiwfe wiwfe"
+    "wiwfm wiwfm wiwfm wiwfm"
+    "..... ..... ..... wiwfs"
 }
+
 .WhereIWork{
     grid-area: whereiwork;
     display: grid;
